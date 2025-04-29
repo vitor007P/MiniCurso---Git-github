@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100w;
+    height: 100vh;
+    background: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 300px;
+    background: #f1f1f1;
+    font-family: Lato;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    border-top: 10px solid #508c88;
+}
+
+.form-box .form-btn{
+    border: none;
+    background: #508c88;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+@media screen and(max-width: 340px){
+    .form-box{
+        width: 100vw;
+        height: 100vh;
+    }
+}
