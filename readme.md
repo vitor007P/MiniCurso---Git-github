@@ -1,7 +1,5 @@
 # Mini curso de git github
 
-Mini curso de git
-
 ## Comandos
 
 Verifica se o Git está instalado e a versão.
